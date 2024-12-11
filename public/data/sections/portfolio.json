@@ -33,15 +33,7 @@
             "locales": {},
 
             "categories": [
-                {
-                    "id": "apps",
-                    "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
-                    }
-                },
+               
                 {
                     "id": "websites",
                     "locales": {
@@ -52,19 +44,32 @@
                     }
                 },
                 {
-                    "id": "utilities",
+                    "id": "process",
                     "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                        "en": {
+                            "singular": "Process",
+                            "plural": "Processes"
+                        },
+                        "es": {
+                            "singular": "Proceso",
+                            "plural": "Procesos"
+                        },
+                        "fr": {
+                            "singular": "Processus",
+                            "plural": "Processus"
+                        },
+                        "ko": {
+                            "singular": "프로세스",
+                            "plural": "프로세스들"
+                        }
                     }
                 }
+                
             ],
 
             "items": [
                 {
-                    "categoryId": "utilities",
+                    "categoryId": "websites",
                     "icon": {
                         "img": "images/pictures/project-logo-3.png",
                         "fa": "",
@@ -72,140 +77,115 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
                     ],
+                   
 
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
+                    
 
                     "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
+                                    "en": {
+                        "title": "ADM-MDM",
+                        "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, and <b>MySQL</b>. Designed for high-performance data processing and real-time event handling. This tool reads documents from the database, where documents are composed of sections, and each section contains notes, pages, indicators, or cards. It associates these data points and can also send the documents via email.",
+                        "tags": ["API", "REST", "Backend", "Node.js", "TypeScript", "Express", "MySQL"]
+                    },
+                    "es": {
+                        "title": "ADM-MDM",
+                        "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b> y <b>MySQL</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real. Esta herramienta lee documentos desde la base de datos, donde los documentos están compuestos por secciones, y cada sección contiene notas, páginas, indicadores o cartones. Se encarga de asociar estos datos y también puede enviar los documentos por correo.",
+                        "tags": ["API", "REST", "Backend", "Node.js", "TypeScript", "Express", "MySQL"]
+                    },
+                    "fr": {
+                        "title": "BrainPulse",
+                        "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b> et <b>MySQL</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel. Cet outil lit des documents depuis la base de données, où les documents sont composés de sections, et chaque section contient des notes, des pages, des indicateurs ou des cartes. Il associe ces données et peut également envoyer les documents par e-mail.",
+                        "tags": ["API", "REST", "Backend", "Node.js", "TypeScript", "Express", "MySQL"]
+                    },
+                    "ko": {
+                        "title": "BrainPulse",
+                        "text": "<b>Node.js</b>, <b>TypeScript</b>, <b>Express</b> 및 <b>MySQL</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다. 이 도구는 데이터베이스에서 문서를 읽어 들이며, 문서는 섹션으로 구성되고 각 섹션에는 노트, 페이지, 지표 또는 카드가 포함됩니다. 이 데이터들을 연관 지으며, 또한 문서를 이메일로 보낼 수 있습니다.",
+                        "tags": ["API", "REST", "Backend", "Node.js", "TypeScript", "Express", "MySQL"]
+                    }
                     }
                 },
 
                 {
-                    "categoryId": "apps",
+                    "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-7.png",
+                        "img": "images/pictures/project-logo-3.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://www.elmediodemedios.com/"}
                     ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
-                        "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
-                        }
-                    },
 
                     "locales": {
                         "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "title": "El Medio de Medios",
+                            "text": "A platform built with <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b>, and <b>Stripe</b>. It allows users to view various PDFs and subscribe to receive daily newsletters with the latest documents by email.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "Stripe", "PDF", "Subscription", "Email"]
                         },
                         "es": {
-                            "title": "MailM8",
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
+                            "title": "El Medio de Medios",
+                            "text": "Una plataforma construida con <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b> y <b>Stripe</b>. Permite a los usuarios visualizar diversos documentos PDF y suscribirse para recibir diariamente boletines con los últimos documentos por correo electrónico.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "Stripe", "PDF", "Suscripción", "Correo electrónico"]
                         },
                         "fr": {
-                            "title": "MailM8",
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "title": "El Medio de Medios",
+                            "text": "Une plateforme construite avec <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b> et <b>Stripe</b>. Elle permet aux utilisateurs de consulter divers PDF et de s'abonner pour recevoir quotidiennement des bulletins avec les derniers documents par e-mail.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "Stripe", "PDF", "Abonnement", "E-mail"]
                         },
                         "ko": {
-                            "title": "MailM8",
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
+                            "title": "El Medio de Medios",
+                            "text": "<b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b> 및 <b>Stripe</b>로 구축된 플랫폼으로, 사용자가 다양한 PDF를 보고 구독하여 매일 최신 문서가 포함된 뉴스레터를 이메일로 받을 수 있습니다.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "Stripe", "PDF", "구독", "이메일"]
                         }
                     }
                 },
 
                 {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
-                        }
+                   "categoryId": "websites",
+                "icon": {
+                    "img": "images/pictures/project-logo-6.png",
+                    "fa": "",
+                    "faColors": {"bg": null, "fill": null}
+                },
+                
+                "media": {
+                    "youtubeVideo": null,
+                    "screenshots": {
+                        "aspectRatio": "16:9",
+                        "images": [
+                            "images/pictures/project-screenshot-6.png",
+                            "images/pictures/project-screenshot-7.png",
+                            "images/pictures/project-screenshot-8.png"
+                        ]
+                                        }
                     },
 
                     "locales": {
                         "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
+                            "title": "ADM EL WERO BISNERO",
+                            "text": "A fully-featured productivity app developed with <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b>, and <b>OpenAI</b>. This app allows users to organize tasks, notes, and projects by associating notes with images to sections. It also enables attaching pays or indicators to sections. All this data is then sent via email through a customizable template, with a preview option before sending.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "OpenAI", "Email"]
                         },
                         "es": {
-                            "title": "Stackers",
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
+                            "title": "ADM EL WERO BISNERO",
+                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b> y <b>OpenAI</b>. Esta app permite a los usuarios organizar tareas, notas y proyectos, asociando notas con imágenes a secciones. También permite agregar pays o indicadores a esas secciones. Todo esto se envía luego por correo electrónico a través de una plantilla configurable, con opción de previsualización antes de enviar.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "OpenAI", "Correo Electrónico"]
                         },
                         "fr": {
-                            "title": "Stackers",
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
+                            "title": "ADM EL WERO BISNERO",
+                            "text": "Une application de productivité complète développée avec <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b> et <b>OpenAI</b>. Cette application permet aux utilisateurs d'organiser des tâches, des notes et des projets en associant des notes avec des images aux sections. Elle permet également d'ajouter des pays ou des indicateurs à ces sections. Toutes ces données sont ensuite envoyées par e-mail via un modèle personnalisable, avec une option d'aperçu avant l'envoi.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "OpenAI", "E-mail"]
                         },
                         "ko": {
-                            "title": "Stackers",
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
+                            "title": "ADM EL WERO BISNERO",
+                            "text": "이 앱은 <b>Node.js</b>, <b>TypeScript</b>, <b>Express</b>, <b>MySQL</b>, <b>OpenAI</b>를 사용하여 개발된 고기능 생산성 앱입니다. 사용자는 메모를 이미지와 함께 섹션에 연결하고, 그 섹션에 pays 또는 지표를 추가할 수 있습니다. 그런 다음 이 모든 데이터는 사용자 정의 가능한 템플릿을 통해 이메일로 전송되며, 전송 전에 미리 보기를 제공하는 옵션이 있습니다.",
+                            "tags": ["Node.js", "TypeScript", "Express", "MySQL", "OpenAI", "이메일"]
                         }
                     }
+
                 },
 
                 {
@@ -217,54 +197,46 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://elwerobisnero.com/"}
                     ],
 
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
+                   
 
                     "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
+                    "en": {
+                        "title": "El Wero Bisnero",
+                        "text": "A website built with <b>Node.js</b>, <b>TypeScript</b>, <b>MySQL</b>, and <b>Stripe</b>. It allows users to subscribe to a daily newsletter, receiving emails with the latest news of the day.",
+                        "tags": ["Node.js", "TypeScript", "MySQL", "Stripe", "Newsletter"]
+                    },
+                    "es": {
+                        "title": "El Wero Bisnero",
+                        "text": "Un sitio web construido con <b>Node.js</b>, <b>TypeScript</b>, <b>MySQL</b> y <b>Stripe</b>. Permite a los usuarios suscribirse a un boletín diario, donde recibirán un correo con las últimas noticias del día.",
+                        "tags": ["Node.js", "TypeScript", "MySQL", "Stripe", "Boletín"]
+                    },
+                    "fr": {
+                        "title": "El Wero Bisnero",
+                        "text": "Un site web construit avec <b>Node.js</b>, <b>TypeScript</b>, <b>MySQL</b> et <b>Stripe</b>. Il permet aux utilisateurs de s'abonner à une newsletter quotidienne, recevant des e-mails avec les dernières nouvelles du jour.",
+                        "tags": ["Node.js", "TypeScript", "MySQL", "Stripe", "Newsletter"]
+                    },
+                    "ko": {
+                        "title": "El Wero Bisnero",
+                        "text": "<b>Node.js</b>, <b>TypeScript</b>, <b>MySQL</b> 및 <b>Stripe</b>로 구축된 이 웹사이트는 사용자가 일일 뉴스레터를 구독하고, 하루의 최신 뉴스를 담은 이메일을 받을 수 있도록 합니다.",
+                        "tags": ["Node.js", "TypeScript", "MySQL", "Stripe", "뉴스레터"]
                     }
+                }
+
                 },
 
                 {
-                    "categoryId": "apps",
+                    "categoryId": "process",
                     "icon": {
-                        "img": "images/pictures/project-logo-2.png",
+                        "img": "images/pictures/project-logo-slack.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
-
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"href": "https://www.your-website.com"}
                     ],
-
                     "media": {
                         "youtubeVideo": null,
                         "screenshots": {
@@ -272,43 +244,43 @@
                             "images": []
                         }
                     },
-
                     "locales": {
                         "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
+                            "title": "Websites Slack",
+                            "text": "A Python-based web scraper that collects notes from different Slack bots, extracting the title, source, and summary, then inserts the data into a database.",
+                            "tags": ["Python", "Slack", "Web Scraper", "Database"]
                         },
                         "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
+                            "title": "Websites Slack",
+                            "text": "Un scraper web basado en Python que recoge notas de diferentes bots de Slack, extrayendo el título, medio, y síntesis, e inserta los datos en una base de datos.",
+                            "tags": ["Python", "Slack", "Scraper Web", "Base de Datos"]
                         },
                         "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
+                            "title": "Websites Slack",
+                            "text": "Un scraper web basé sur Python qui collecte des notes provenant de différents bots Slack, extrait le titre, la source et le résumé, puis insère les données dans une base de données.",
+                            "tags": ["Python", "Slack", "Scraper Web", "Base de Données"]
                         },
                         "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
+                            "title": "Websites Slack",
+                            "text": "Python 기반의 웹 스크래퍼로, 다양한 Slack 봇에서 노트를 수집하고, 제목, 출처, 요약을 추출하여 데이터를 데이터베이스에 삽입합니다.",
+                            "tags": ["Python", "Slack", "웹 스크래퍼", "데이터베이스"]
                         }
                     }
                 },
+                
 
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-5.png",
+                        "img": "images/pictures/project-logo-6.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
-
+                
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://www.your-website-link.com"}
                     ],
-
+                
                     "media": {
                         "youtubeVideo": null,
                         "screenshots": {
@@ -316,43 +288,44 @@
                             "images": []
                         }
                     },
-
+                
                     "locales": {
                         "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
+                            "title": "Intelligent Virtual Assistant",
+                            "text": "A dynamic web application built with <b>React</b>, <b>Node.js</b>, and <b>OpenAI API</b>. This assistant reads a user-provided <b>TXT file</b> containing predefined information and can answer questions based on it. Additionally, it generates related questions to further explore the content.",
+                            "tags": ["React", "Node.js", "AI", "OpenAI", "Virtual Assistant"]
                         },
                         "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
+                            "title": "Asistente Virtual Inteligente",
+                            "text": "Una aplicación web dinámica construida con <b>React</b>, <b>Node.js</b> y <b>API OpenAI</b>. Este asistente lee un archivo <b>TXT</b> proporcionado por el usuario con información predefinida y puede responder preguntas basadas en ella. Además, genera preguntas relacionadas para explorar más a fondo el contenido.",
+                            "tags": ["React", "Node.js", "IA", "OpenAI", "Asistente Virtual"]
                         },
                         "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
+                            "title": "Assistant Virtuel Intelligent",
+                            "text": "Une application web dynamique construite avec <b>React</b>, <b>Node.js</b> et <b>API OpenAI</b>. Cet assistant lit un fichier <b>TXT</b> fourni par l'utilisateur contenant des informations prédéfinies et peut répondre à des questions basées sur celles-ci. De plus, il génère des questions connexes pour explorer davantage le contenu.",
+                            "tags": ["React", "Node.js", "IA", "OpenAI", "Assistant Virtuel"]
                         },
                         "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
+                            "title": "지능형 가상 비서",
+                            "text": "<b>React</b>, <b>Node.js</b>, <b>OpenAI API</b>로 구축된 동적 웹 애플리케이션입니다. 이 비서는 사용자가 제공한 <b>TXT 파일</b>을 읽고 해당 정보를 바탕으로 질문에 답변합니다. 또한 관련 질문을 생성하여 내용을 더 탐색할 수 있습니다.",
+                            "tags": ["React", "Node.js", "AI", "OpenAI", "가상 비서"]
                         }
                     }
                 },
+                
 
                 {
-                    "categoryId": "websites",
+                    "categoryId": "process",
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-guitar",
+                        "fa": "fa-solid fa-chart-line",
                         "faColors": {"bg": "#111", "fill": "#EEE"}
                     },
-
+                
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://www.your-website-link.com"}
                     ],
-
+                
                     "media": {
                         "youtubeVideo": "",
                         "screenshots": {
@@ -360,119 +333,34 @@
                             "images": []
                         }
                     },
-
+                
                     "locales": {
                         "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "title": "Sentiment Analysis",
+                            "text": "A process built with <b>Node.js</b>, <b>Express</b>, <b>TypeScript</b>, and <b>MySQL</b> that reads daily news articles and provides a <b>sentiment score</b>, categorization, SWOT analysis, and actor participation ratings.",
+                            "tags": ["Node.js", "Express", "Sentiment Analysis", "TypeScript", "MySQL"]
                         },
                         "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
+                            "title": "Análisis de Sentimiento",
+                            "text": "Un proceso construido con <b>Node.js</b>, <b>Express</b>, <b>TypeScript</b> y <b>MySQL</b> que lee notas diarias y proporciona una <b>valoración de sentimiento</b>, categorización, análisis FODA y valoración de participación por actor.",
+                            "tags": ["Node.js", "Express", "Análisis de Sentimiento", "TypeScript", "MySQL"]
                         },
                         "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
+                            "title": "Analyse de Sentiment",
+                            "text": "Un processus construit avec <b>Node.js</b>, <b>Express</b>, <b>TypeScript</b> et <b>MySQL</b> qui lit les articles d'actualité quotidiens et fournit un <b>score de sentiment</b>, une catégorisation, une analyse SWOT et une évaluation de la participation des acteurs.",
+                            "tags": ["Node.js", "Express", "Analyse de Sentiment", "TypeScript", "MySQL"]
                         },
                         "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
+                            "title": "감정 분석",
+                            "text": "<b>Node.js</b>, <b>Express</b>, <b>TypeScript</b>, <b>MySQL</b>로 구축된 이 프로세스는 매일의 뉴스 기사를 읽고 <b>감정 점수</b>, 분류, SWOT 분석 및 각자 참여도 평가를 제공합니다.",
+                            "tags": ["Node.js", "Express", "감정 분석", "TypeScript", "MySQL"]
                         }
                     }
                 }
+                
+
+                
+                
             ]
         }
     ]

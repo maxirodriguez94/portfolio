@@ -26,19 +26,7 @@
     },
 
     "articles": [
-        {
-            "id": "contact_form",
-            "component": "ArticleContactForm",
-            "config": {},
-            "locales": {
-                "en": {"title": "Send me a **message**"},
-                "es": {"title": "Envíame un **mensaje**"},
-                "fr": {"title": "Envoyez-moi un **message**"},
-                "ko": {"title": "**메시지를** 보내주세요"}
-            },
-
-            "items": null
-        },
+      
 
         {
             "id": "contact_list",
@@ -55,9 +43,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+549 (3564) 377992",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:5493564377992"}
                     ],
                     "icon": {
                         "img": null,
@@ -73,9 +61,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "maxi.rodriguez94@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:maxi.rodriguez94@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +77,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@maximiliano-rodriguez",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/maximiliano-rodriguez-5a6941262/"}
                     ],
                     "icon": {
                         "img": null,
@@ -101,52 +89,9 @@
                     "locales": {
                         "en": {"title": "Linkedin"}
                     }
-                },
-
-                {
-                    "value": "Mark Choi",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://instagram.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-instagram",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
-                    }
                 }
+
+                
             ]
         }
     ]
